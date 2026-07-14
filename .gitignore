@@ -3,14 +3,10 @@
 *.pt
 *.pkl
 
-# Données volumineuses
-
+.vscode/
 # Environnements Python
-.venv/
+venvac/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 uv.lock
-
-# macOS
-.DS_Store
