@@ -64,6 +64,8 @@ def _points(goals_for, goals_against):
 
 
 def add_recent_form(df, window=10, min_matches=5):
+
+    # Window : nombre de matchs passés à considérer (par défaut 10)
     """Add each team's recent form (computed BEFORE the match) to every row.
 
     For both teams of each match, computes the average points, goals scored
